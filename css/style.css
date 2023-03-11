@@ -1,0 +1,71 @@
+#container{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    height: 100%;
+}
+#lateral {
+    float: left;
+    width: 35%;
+    
+    background-color: #09315e;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#conteudo {
+    float: right;
+    width: 70%;
+    height: 100%;
+    background-color: #E0E0E0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.card{
+    background-color: white;
+    padding: 15px;
+    margin-top: 10px;
+}
+#photo{
+    text-align: center;
+    height: 40%;
+    background: url('https://icon-library.com/images/avatar-icon-images/avatar-icon-images-4.jpg');
+    background-repeat: no-repeat ;
+    background-size: 80%;
+    background-position: center;
+}
+#info{
+    padding: 10px;
+    font-size: 1rem;
+}
+#info i{
+    color: white;
+    padding: 5px;
+}
+span{
+    margin-left: 10px;
+}
+label{
+    color: white;
+    display: inline-block;
+    width: 35%;
+}
+input{
+    display: inline-block;
+    width: 70px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#range{
+    background-color: green;
+    width: 50%;
+
+}
+
+
+
+.clear {
+    clear: both;
+}
